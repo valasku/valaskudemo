@@ -3,7 +3,7 @@
 The WebSocket API allows you to to maintain a continuous two-way connection between client and server.
 Messages can be sent and received on both ends.
 
-Article url: http://www.sitepoint.com/real-time-apps-websockets-server-sent-events
+Article URL: http://www.sitepoint.com/real-time-apps-websockets-server-sent-events
 
 ## Requirements
 
