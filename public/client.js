@@ -1,5 +1,5 @@
 
-var socket = new WebSocket('ws://localhost:8081/');
+var socket = new WebSocket('ws://localhost:3000/');
 socket.onopen = function(event) {
   log('Opened connection 🎉');
   var json = JSON.stringify({ message: 'Hello' });

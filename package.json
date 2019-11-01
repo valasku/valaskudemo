@@ -1,8 +1,8 @@
 {
-  "name": "websockets",
+  "name": "valaskudemo",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "",
+  "main": "index.html",
+  "author": "valasku",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -12,9 +12,16 @@
     "url": "https://github.com/markbrown4/websockets/issues"
   },
   "homepage": "https://github.com/markbrown4/websockets#readme",
-  "description": "",
+  "description": "The WebSocket API allows you to to maintain a continuous two-way connection between client and server.\r Messages can be sent and received on both ends.",
   "dependencies": {
-    "express": "^4.13.4",
-    "ws": "^1.1.0"
-  }
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "request": "^2.88.0",
+    "ws": ">=3.3.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
