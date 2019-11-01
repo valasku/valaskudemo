@@ -1,5 +1,7 @@
 
-var socket = new WebSocket('ws://localhost:3000/');
+var myport = process.env.PORT || 8081;
+var myhost = "0.0.0.0" | "localhost";
+var socket = new WebSocket('ws://'+myhost+':'+myport+'/');
 socket.onopen = function(event) {
   log('Opened connection 🎉');
   var json = JSON.stringify({ message: 'Hello' });
