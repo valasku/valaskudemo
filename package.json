@@ -14,7 +14,7 @@
   "homepage": "https://github.com/markbrown4/websockets#readme",
   "description": "The WebSocket API allows you to to maintain a continuous two-way connection between client and server.\r Messages can be sent and received on both ends.",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mysql": "^2.17.1",
     "request": "^2.88.0",
     "ws": ">=3.3.1"
